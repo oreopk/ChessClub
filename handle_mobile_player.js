@@ -16,8 +16,7 @@ function updateCarousel_mobile() {
 }
 
 leftBtn3.classList.add('disabled');
-let timerId_mobile = setInterval(() => nextSlide(), 4000);
-let timerId2_mobile = setInterval(() => prevSlide(), 8000);
+let timerId_mobile_player = setInterval(() => nextSlide_mobile(), 4000);
 
 text3.textContent = `${count3}/${total3}`;
 function nextSlide_mobile() {
@@ -27,17 +26,28 @@ function nextSlide_mobile() {
     currentIndex_mobile = (currentIndex_mobile + itemsSlide3) % total3;
 
     updateCarousel_mobile();
-    console.log(currentIndex_mobile);
+
     if (itemsSlide3 == total3 - currentIndex_mobile) {
       rightBtn3.classList.add('disabled');
     }
-    clearInterval(timerId_mobile);
-    clearInterval(timerId2_mobile);
-    timerId_mobile = setInterval(() => nextSlide(), 8000);
-    timerId2_mobile = setInterval(() => prevSlide(), 4000);
+    clearInterval(timerId_mobile_player);
+
+    timerId_mobile_player = setInterval(() => nextSlide_mobile(), 4000);
+
     count3 = count3 + itemsSlide3;
 
     text3.textContent = `${count3}/${total3}`;
+  } else {
+    rightBtn3.classList.remove('disabled');
+
+    currentIndex_mobile = (currentIndex_mobile + itemsSlide3) % total3;
+
+    updateCarousel_mobile();
+    count3 = 1;
+    text3.textContent = `${count3}/${total3}`;
+    leftBtn3.classList.add('disabled');
+    clearInterval(timerId_mobile_player);
+    timerId_mobile_player = setInterval(() => nextSlide_mobile(), 4000);
   }
 }
 
@@ -52,10 +62,10 @@ function prevSlide_mobile() {
     if (currentIndex_mobile == 0) {
       leftBtn3.classList.add('disabled');
     }
-    clearInterval(timerId_mobile);
-    clearInterval(timerId2_mobile);
-    timerId_mobile = setInterval(() => nextSlide(), 4000);
-    timerId2_mobile = setInterval(() => prevSlide(), 8000);
+    clearInterval(timerId_mobile_player);
+
+    timerId_mobile_player = setInterval(() => nextSlide_mobile(), 4000);
+
     count3 = count3 - itemsSlide3;
     text3.textContent = `${count3}/${total3}`;
   }

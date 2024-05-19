@@ -22,6 +22,10 @@
     left: -20px;
     top: 0px;
   }
+  .strike {
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
   .mobile_maintop2righttop {
     display: flex;
     flex-direction: row;

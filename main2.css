@@ -6,6 +6,10 @@
 .mobile_maintop2righttop {
   display: none;
 }
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
 .flashdiv {
   position: relative;
   width: 437px;
