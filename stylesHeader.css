@@ -18,6 +18,9 @@
   text-align: left;
   margin-left: 4.62px;
 }
+.header_text4_mobile {
+  display: none;
+}
 .headertop {
   padding-right: 752px;
   padding-left: 72px;
@@ -84,6 +87,7 @@
   text-align: center;
   width: 542px;
   margin-top: 24px;
+  display: block;
 }
 .btn1 {
   border-radius: 66px;

@@ -75,6 +75,9 @@
     height: 40px;
   }
   .header_text4 {
+    display: none;
+  }
+  .header_text4_mobile {
     color: rgb(49, 49, 49);
     font-family: 'Golos Text', serif;
     font-size: 18px;
@@ -84,11 +87,12 @@
     text-align: start;
     width: 335px;
     margin-top: 24px;
+    display: block;
   }
   .header_buttons {
     padding-bottom: 285px;
     display: flex;
-    gap: 16px;
+    gap: 14px;
     margin-top: 32px;
     flex-direction: column;
 
@@ -118,7 +122,7 @@
     border-radius: 66px;
     background: rgb(31, 31, 31);
     width: 335px;
-    height: 53px;
+    height: 47px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +147,7 @@
     border-radius: 66px;
     background: rgb(251, 206, 81);
     width: 335px;
-    height: 53px;
+    height: 47px;
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -168,7 +172,7 @@
     letter-spacing: 0px;
     text-align: center;
     width: 335px;
-    height: 53px;
+    height: 47px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,7 +195,7 @@
     letter-spacing: 0px;
     text-align: center;
     width: 335px;
-    height: 53px;
+    height: 47px;
     display: flex;
     flex-direction: column;
     justify-content: center;
