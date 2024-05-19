@@ -1,0 +1,204 @@
+@media (max-width: 375px) {
+  .header {
+    background-image: url('./assets/mobilescreen.png');
+    height: 812px;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+  }
+  .texthorse {
+    color: rgb(89, 86, 83);
+    font-family: 'Golos Text', serif;
+    font-size: 14.42px;
+    font-weight: 700;
+    line-height: 108%;
+    text-align: left;
+    margin-left: 4.62px;
+  }
+  .headertop {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 26px;
+    padding-bottom: 132px;
+  }
+  .headerhorse {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 245px;
+    height: 36px;
+    gap: 1.73px;
+  }
+  .horse {
+    width: 18.75px;
+    height: 27px;
+  }
+  .headerbottom {
+    margin-top: 40px;
+    width: 335px;
+    height: 444px;
+  }
+  .header_text1 {
+    color: rgb(49, 49, 49);
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .header_text2 {
+    color: rgb(49, 49, 49);
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0px;
+
+    text-transform: uppercase;
+    margin-left: 91px;
+  }
+  .header_text3 {
+    color: rgb(49, 49, 49);
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 335px;
+    height: 40px;
+  }
+  .header_text4 {
+    color: rgb(49, 49, 49);
+    font-family: 'Golos Text', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: start;
+    width: 335px;
+    margin-top: 24px;
+  }
+  .header_buttons {
+    padding-bottom: 285px;
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .btn1 {
+    border-radius: 66px;
+    background: rgb(31, 31, 31);
+    width: 335px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Golos Text', serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .btn1_mobile {
+    border-radius: 66px;
+    background: rgb(31, 31, 31);
+    width: 335px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Golos Text', serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .btn1 {
+    display: none;
+  }
+  .btn2 {
+    display: none;
+  }
+  .btn1_mobile:hover {
+    border-radius: 66px;
+    background: rgb(251, 206, 81);
+    width: 335px;
+    height: 53px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(31, 31, 31);
+    font-family: 'Golos Text', serif;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .btn2_mobile {
+    font-family: 'Golos Text', serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 335px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 66px;
+
+    background: rgb(255, 255, 255);
+    opacity: 0.9;
+
+    cursor: pointer;
+  }
+  .btn2_mobile:hover {
+    color: rgb(255, 255, 255);
+    font-family: 'Golos Text', serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 335px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 66px;
+    background: rgb(31, 31, 31);
+  }
+}

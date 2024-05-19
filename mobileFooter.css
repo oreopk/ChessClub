@@ -1,0 +1,31 @@
+@media (max-width: 375px) {
+  .footer {
+    display: flex;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    flex-direction: column;
+  }
+  .footertext_mobile {
+    color: rgb(49, 49, 49);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    display: inline;
+    opacity: 0.6;
+  }
+  .footer_containt {
+    padding: 40px 20px 60px 20px;
+    background: rgb(233, 222, 212);
+    height: 214px;
+    width: 375px;
+  }
+  .footertext {
+    display: none;
+  }
+}

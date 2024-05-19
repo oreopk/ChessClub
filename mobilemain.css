@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+  .main {
+    display: flex;
+    width: 375px;
+
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    padding-left: 19px;
+    padding-right: 20px;
+  }
+  header {
+    height: 812px;
+  }
+}

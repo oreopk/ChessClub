@@ -1,0 +1,118 @@
+@media (max-width: 375px) {
+  .main2 {
+    padding-top: 34px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+  .maintop2righttop {
+    display: none;
+  }
+  .flashdiv {
+    position: relative;
+    width: 335px;
+    height: 420px;
+  }
+  .flash {
+    position: absolute;
+    width: 374px;
+    height: 420px;
+    /* width: 529px;
+     height: 652px; */
+    left: -20px;
+    top: 0px;
+  }
+  .mobile_maintop2righttop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 335px;
+    column-gap: 10px;
+  }
+  .gross {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 0px;
+
+    color: rgb(49, 49, 49);
+    text-transform: uppercase;
+  }
+  .grossred {
+    color: rgb(245, 73, 50);
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 0px;
+
+    text-transform: uppercase;
+  }
+  .mobile_maintop2rightbottom {
+    margin-top: 60px;
+    display: block;
+  }
+  .maintop2rightbottom {
+    display: none;
+  }
+
+  .tableleft {
+    border-right: none;
+    border-bottom: 2px solid rgb(208, 208, 208);
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+  .tableleft_pay {
+    border-right: none;
+    border-bottom: 2px solid rgb(208, 208, 208);
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .tableleftbottom {
+    border-right: none;
+
+    padding-top: 16px;
+  }
+
+  .tabletextleft {
+    color: rgb(49, 49, 49);
+    font-family: 'Golos Text', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 12px;
+  }
+  .zeromargin {
+    margin-bottom: 0px;
+  }
+  .tabletextright {
+    color: rgb(49, 49, 49);
+    font-family: 'Golos Text', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 1;
+  }
+
+  .allquestion {
+    color: rgb(48, 87, 162);
+    font-family: 'Golos Text', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 40px;
+  }
+}

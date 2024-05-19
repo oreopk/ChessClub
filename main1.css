@@ -1,0 +1,29 @@
+.main1 {
+  margin-top: 80px;
+  display: flex;
+  gap: 64px;
+}
+.support {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(49, 49, 49);
+  text-transform: uppercase;
+}
+.supportred {
+  color: rgb(245, 73, 50);
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.players {
+  width: 394px;
+  height: 250px;
+}

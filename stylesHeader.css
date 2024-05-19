@@ -1,0 +1,181 @@
+.header {
+  position: relative;
+  background-image: url('./assets/Group18.png');
+  height: 700px;
+  width: 1366px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.texthorse {
+  color: rgb(89, 86, 83);
+  font-family: Golos Text;
+  font-size: 16.65px;
+  font-weight: 700;
+  line-height: 108%;
+  text-align: left;
+  margin-left: 4.62px;
+}
+.headertop {
+  padding-right: 752px;
+  padding-left: 72px;
+  padding-top: 26px;
+  padding-bottom: 132px;
+}
+.headerhorse {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 245px;
+  height: 36px;
+  gap: 1.73px;
+}
+.horse {
+  width: 21.65px;
+  height: 31.18px;
+}
+.headerbottom {
+  margin-top: 62px;
+  width: 542px;
+  height: 444px;
+}
+.header_text1 {
+  color: rgb(49, 49, 49);
+
+  font-family: 'Merriweather', serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.header_text2 {
+  color: rgb(49, 49, 49);
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0px;
+
+  text-transform: uppercase;
+  margin-left: 91px;
+}
+.header_text3 {
+  color: rgb(49, 49, 49);
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: right;
+  text-transform: uppercase;
+  width: 542px;
+  height: 66px;
+}
+.header_text4 {
+  color: rgb(49, 49, 49);
+  font-family: Golos Text;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 542px;
+  margin-top: 24px;
+}
+.btn1 {
+  border-radius: 66px;
+  background: rgb(31, 31, 31);
+  width: 263px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn1_mobile {
+  display: none;
+}
+.btn1:hover {
+  border-radius: 66px;
+  background: rgb(251, 206, 81);
+  width: 263px;
+  height: 78px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(31, 31, 31);
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.btn2_mobile {
+  display: none;
+}
+.btn2 {
+  color: rgb(31, 31, 31);
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 263px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 66px;
+  color: rgb(31, 31, 31);
+  background: none;
+  cursor: pointer;
+}
+.btn2:hover {
+  color: rgb(255, 255, 255);
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 263px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 66px;
+  background: rgb(31, 31, 31);
+}
+.header_buttons {
+  padding-bottom: 124px;
+  display: flex;
+  gap: 16px;
+  margin-top: 39px;
+}
+
+.sup_mobile {
+  display: none;
+}

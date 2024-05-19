@@ -1,0 +1,156 @@
+.main4 {
+  margin-top: 200px;
+  overflow: hidden;
+  width: auto;
+}
+.main4_mobile {
+  display: none;
+}
+.main4toptext {
+  color: rgb(49, 49, 49);
+  font-family: Merriweather;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.main4top {
+  display: flex;
+  justify-content: space-between;
+}
+.krug {
+  width: 44px;
+  height: 44px;
+  background: rgb(49, 49, 49);
+  border-radius: 50%;
+  background-image: url('./assets/Vector.png');
+
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+.kruginvert {
+  width: 44px;
+  height: 44px;
+  background: rgb(49, 49, 49);
+  border-radius: 50%;
+  background-image: url('./assets/Vector.png');
+
+  background-repeat: no-repeat;
+  background-position: 14px center;
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.handle {
+  display: flex;
+  gap: 14px;
+}
+.handletext {
+  position: relative;
+  color: rgb(49, 49, 49);
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 2.5px;
+  top: -10px;
+  align-self: center;
+}
+.main4center {
+  display: relative;
+  display: flex;
+  gap: 95px;
+
+  margin-top: 60px;
+  margin-bottom: 135px;
+
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+.playertext {
+  color: rgb(49, 49, 49);
+  font-family: Golos Text;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+.playertext2 {
+  color: rgb(49, 49, 49);
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 6px;
+}
+.playerbutton {
+  box-sizing: border-box;
+  border: 1px solid rgb(48, 87, 162);
+  border-radius: 62px;
+  margin-top: 20px;
+  width: 114px;
+  height: 40px;
+  background-color: transparent;
+  align-self: center;
+  color: rgb(48, 87, 162);
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.player {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.disabled {
+  background: rgb(214, 214, 214);
+  background-image: url(./assets/Vector.png);
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+.krug:hover {
+  background: rgb(251, 206, 81);
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-image: url('./assets/Vector.png');
+
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+.kruginvert:hover {
+  background: rgb(251, 206, 81);
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-image: url('./assets/Vector.png');
+
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+.kruginvert:disabled {
+  background: rgb(214, 214, 214);
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-image: url('./assets/Vector.png');
+
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}

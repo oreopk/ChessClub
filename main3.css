@@ -1,0 +1,102 @@
+.main3 {
+  padding-top: 200px;
+}
+.main3_mobile {
+  display: none;
+}
+.top3text1 {
+  color: rgb(49, 49, 49);
+  font-family: Merriweather;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.top3textlow {
+  position: relative;
+  color: rgb(48, 87, 162);
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 20px;
+  align-self: center;
+  top: -5px;
+}
+.text1flex {
+  display: flex;
+}
+.tabl {
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: 394px 394px 394px;
+  grid-template-rows: 112px 112px 136px;
+
+  gap: 20px;
+}
+.item1 {
+  background-image: url('./assets/fon.png');
+}
+.item2 {
+  background-image: url('./assets/fon.png');
+}
+.item3 {
+  background-image: url('./assets/fonheight.png');
+  grid-area: span 2;
+  height: 244px;
+}
+.item4 {
+  background-image: url('./assets/fon.png');
+}
+.item5 {
+  background-image: url('./assets/fon.png');
+}
+.item6 {
+  background-image: url('./assets/fon.png');
+}
+.item7 {
+  width: 808px;
+  background-image: url('./assets/fonlong.png');
+}
+.cardtext {
+  color: rgb(49, 49, 49);
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cardinside {
+  display: flex;
+  padding: 20px;
+  gap: 16px;
+  position: relative;
+}
+.numbercard {
+  width: 36px;
+  height: 36px;
+}
+.samolet {
+  position: absolute;
+  right: -50px;
+  top: -100px;
+}
+
+.numb {
+  position: absolute;
+  color: rgb(49, 49, 49);
+  font-family: 'Golos Text', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 6px 12px;
+}

@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  flex-direction: column;
+}
+.footertext {
+  display: inline;
+  color: rgb(49, 49, 49);
+  font-family: Golos Text, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+
+  opacity: 0.6;
+}
+.footer_containt {
+  padding: 40px 72px 72px 72px;
+  background: rgb(233, 222, 212);
+  height: 150px;
+  width: 1366px;
+}
+.footertext_mobile {
+  display: none;
+}

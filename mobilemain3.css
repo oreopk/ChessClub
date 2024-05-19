@@ -1,0 +1,195 @@
+@media (max-width: 375px) {
+  .karkas {
+    overflow: hidden;
+    width: auto;
+
+    margin-top: 148px;
+  }
+  .main3 {
+    padding-top: 200px;
+    display: none;
+  }
+  .main3_mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    position: relative;
+  }
+  .main3center {
+    display: flex;
+
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .top3text1 {
+    color: rgb(49, 49, 49);
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 335px;
+  }
+
+  .top3textlow {
+    position: relative;
+    color: rgb(48, 87, 162);
+    font-family: 'Golos Text', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 0px;
+    align-self: left;
+    margin-top: 12px;
+  }
+  .text1flex {
+    display: flex;
+  }
+
+  .cardtext {
+    color: rgb(49, 49, 49);
+    font-family: 'Golos Text', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .cardinside {
+    display: flex;
+    padding: 20px;
+    gap: 16px;
+    position: relative;
+  }
+  .numbercard {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+  }
+  .samolet {
+    position: absolute;
+    right: -50px;
+    top: -100px;
+  }
+  .container_numb {
+    position: relative;
+    display: flex;
+  }
+  .numb {
+    position: absolute;
+    color: rgb(49, 49, 49);
+    font-family: 'Golos Text', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 6px 12px;
+  }
+  .plane2 {
+    position: absolute;
+    top: 200px;
+    z-index: 100;
+  }
+  .itemcard {
+    display: flex;
+    background-image: url('./assets/cube.png');
+    min-width: 335px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 62px;
+    padding-right: 24px;
+    padding-bottom: 34px;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .handle_mobile1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    gap: 16px;
+  }
+  .indexcardWhite {
+    background-image: url('./assets/EllipseWhite.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 10px;
+    min-height: 10px;
+  }
+  .indexcardBlack {
+    background-image: url('./assets/EllipseBlack.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 10px;
+    min-height: 10px;
+  }
+  .indexcarkas {
+    display: flex;
+    gap: 6px;
+  }
+  .krug_mobile {
+    width: 44px;
+    height: 44px;
+    background: rgb(49, 49, 49);
+    border-radius: 50%;
+    background-image: url('./assets/Vector.png');
+
+    background-repeat: no-repeat;
+    background-position: 14px center;
+  }
+  .kruginvert_mobile {
+    width: 44px;
+    height: 44px;
+    background: rgb(49, 49, 49);
+    border-radius: 50%;
+    background-image: url('./assets/Vector.png');
+
+    background-repeat: no-repeat;
+    background-position: 14px center;
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+  }
+
+  .krug_mobile:hover {
+    background: rgb(251, 206, 81);
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    background-image: url('./assets/Vector.png');
+
+    background-repeat: no-repeat;
+    background-position: 14px center;
+  }
+  .kruginvert_mobile:hover {
+    background: rgb(251, 206, 81);
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    background-image: url('./assets/Vector.png');
+
+    background-repeat: no-repeat;
+    background-position: 14px center;
+  }
+  .kruginvert_mobile:disabled {
+    background: rgb(214, 214, 214);
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    background-image: url('./assets/Vector.png');
+
+    background-repeat: no-repeat;
+    background-position: 14px center;
+  }
+}

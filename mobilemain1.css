@@ -1,0 +1,38 @@
+@media (max-width: 375px) {
+  .main1 {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .support {
+    font-family: 'Merriweather', serif;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .supportred {
+    color: rgb(245, 73, 50);
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .players {
+    width: 335px;
+    height: 212px;
+  }
+  .sup {
+    display: none;
+  }
+  .sup_mobile {
+    display: block;
+  }
+}
