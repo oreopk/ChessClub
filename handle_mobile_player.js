@@ -1,8 +1,6 @@
 let itemsSlide3 = 1;
 let count3 = 1;
-// Функция для обновления количества отображаемых элементов в зависимости от ширины экрана
 
-// Остальной код остается без изменений
 let currentIndex_mobile = 0;
 const carusel3 = document.querySelector('.main4center_mobile');
 const total3 = document.querySelectorAll('.player_mobile').length;

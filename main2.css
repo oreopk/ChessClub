@@ -19,8 +19,7 @@
   position: absolute;
   width: 529px;
   height: 568px;
-  /* width: 529px;
-   height: 652px; */
+
   left: -36px;
   top: -29px;
 }
@@ -85,7 +84,7 @@
 }
 .tabletextleft {
   color: rgb(49, 49, 49);
-  font-family: Golos Text;
+  font-family: 'Golos Text', serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
@@ -95,7 +94,7 @@
 }
 .tabletextright {
   color: rgb(49, 49, 49);
-  font-family: Golos Text;
+  font-family: 'Golos Text', serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 120%;
@@ -116,7 +115,7 @@
 }
 .allquestion {
   color: rgb(48, 87, 162);
-  font-family: Golos Text;
+  font-family: 'Golos Text', serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;

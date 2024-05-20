@@ -1,8 +1,6 @@
 let itemsPerSlide = 1;
 let count = 1;
-// Функция для обновления количества отображаемых элементов в зависимости от ширины экрана
 
-// Остальной код остается без изменений
 let currentIndex = 0;
 const carousel = document.querySelector('.main3center');
 const totalItems = document.querySelectorAll('.itemcard').length;

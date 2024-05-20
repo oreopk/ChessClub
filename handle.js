@@ -1,14 +1,13 @@
 let itemsSlide = 3;
 let countThree = 3;
-// Функция для обновления количества отображаемых элементов в зависимости от ширины экрана
 
-// Остальной код остается без изменений
 let currentIndx = 0;
 const carusel = document.querySelector('.main4center');
 const total = document.querySelectorAll('.player').length;
 const leftBtn = document.querySelector('.krug');
 const rightBtn = document.querySelector('.kruginvert');
 let text = document.querySelector('.handletext');
+
 function updateCarousel() {
   carusel.style.transform = `translateX(${-currentIndx * (100 / itemsSlide)}%)`;
 }
